@@ -1,0 +1,18 @@
+﻿function openApp(){
+  TestedApps.Orders.Run();
+}
+
+function closeApp(){
+  Aliases.Orders.MainForm.Close();
+  Aliases.Orders.dlgConfirmation.btnNo.ClickButton();
+}
+
+module.exports.openApp = openApp;
+module.exports.closeApp = closeApp;
+
+function Test1()
+{
+  let orders = Aliases.Orders;
+  orders.MainForm.Close();
+  orders.dlgConfirmation.btnNo.ClickButton();
+}
