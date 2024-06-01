@@ -1,8 +1,8 @@
 ﻿var OrderAppSteps = require("OrderAppSteps");
 var CreateOrderSteps = require("CreateOrderSteps");
-function OrderTest1(){
+function orderTest1(){
   OrderAppSteps.openApp();
   CreateOrderSteps.createOrderWithoutName();
-  CreateOrderSteps.createOrderWithoutName();
+  CreateOrderSteps.createOrderWithName();
   OrderAppSteps.closeApp();
 }

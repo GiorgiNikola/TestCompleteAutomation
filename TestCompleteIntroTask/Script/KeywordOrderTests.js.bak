@@ -1,3 +1,7 @@
 ﻿function keywordOrderTest1(){
-  
+  //KeywordTests.OpenApp.Run();
+  //KeywordTests.AddOrderWithoutName.Run();
+  //KeywordTests.AddOrderWithCreditCard.Run();
+  //KeywordTests.CloseApp;
+  KeywordTests.KeywordOrderSteps.Run();
 }
