@@ -1,0 +1,9 @@
+﻿var OrderTests = require("OrderTests");
+function main(){
+ OrderTests.validateCustomerName();
+ OrderTests.validateMasterCard();
+ OrderTests.validateEditOrder();
+ OrderTests.validateDeleteOrder();
+ OrderTests.validatePricePerUnit();
+ OrderTests.createOrderWithApiDataTest();
+}

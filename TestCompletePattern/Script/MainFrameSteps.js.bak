@@ -1,0 +1,41 @@
+﻿var Assert = require("Assert");
+
+
+class MainFrameSteps{
+  constructor(){
+    this.Orders = Aliases.Orders;
+    this.dlgConfirmation = Aliases.Orders.dlgConfirmation;
+  }
+
+  addNewOrder(){
+    this.Orders.MainForm.MainMenu.Click("Orders|New order...");
+    return this;
+  }
+
+  editOrder(orderName){
+    this.Orders.MainForm.OrdersView.ClickItemR(0, orderName);
+    this.Orders.MainForm.OrdersView.PopupMenu.Click("Edit order...");
+    return this;
+  }
+
+  clickOnOrder(orderName){
+    this.Orders.MainForm.OrdersView.DblClickItem(0, orderName);
+    return this;
+  }
+
+  deleteOrder(orderName){
+    this.Orders.MainForm.OrdersView.ClickItemR(0, orderName);
+    this.Orders.MainForm.OrdersView.PopupMenu.Click("Delete order");
+    this.dlgConfirmation.btnYes.Click();
+    return this;
+  }
+
+  validateOrdersCount(size){
+    Assert.assertTrue(this.Orders.MainForm.OrdersView.wItemCount, size);
+    return this;
+  }
+}
+
+var mainFrameSteps = new MainFrameSteps();
+
+module.exports = mainFrameSteps;

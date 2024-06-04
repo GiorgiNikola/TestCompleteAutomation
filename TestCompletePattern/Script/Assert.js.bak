@@ -1,0 +1,8 @@
+﻿function assertTrue(param1, param2){
+  if(param1 == param2){
+    return Log.Message("Assert was successful!");
+  }else{
+    return Log.Error();
+  }
+}
+module.exports.assertTrue = assertTrue;

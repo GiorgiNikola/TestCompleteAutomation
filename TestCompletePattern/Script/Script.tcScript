@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Main">
+			<folder name="Steps">
+				<child name="OrderSteps" key="{B5246AAF-5A7B-4617-852F-864F9051B4CE}" path="OrderSteps.js" />
+				<child name="OrderAppSteps" key="{75C8D29C-1F8A-408F-BE3F-CBD6A59A746E}" path="OrderAppSteps.js" />
+				<child name="MainFrameSteps" key="{6A74FC5D-70DD-41A7-91B0-7556F7FF8623}" path="MainFrameSteps.js" />
+				<child name="ApiSteps" key="{6DE00BCD-82DD-4922-981B-17975933A430}" path="ApiSteps.js" />
+			</folder>
+			<folder name="Common">
+				<child name="Assert" key="{686F6C7F-C55F-4531-9479-2C20F107A524}" path="Assert.js" />
+			</folder>
+			<folder name="Data">
+				<child name="Constants" key="{73553833-540D-43A9-A533-51603533769A}" path="Constants.js" />
+			</folder>
+		</folder>
+		<folder name="Test">
+			<folder name="Test Cases">
+				<child name="OrderTests" key="{823551F1-CA9D-432B-B682-8DE88485A49C}" path="OrderTests.js" />
+			</folder>
+			<folder name="Test Runners">
+				<child name="OrderTestsRunner" key="{A3497AC6-149E-48F3-9EA3-90CAA01A1009}" path="OrderTestsRunner.js" />
+			</folder>
+		</folder>
+	</children>
+</Root>
