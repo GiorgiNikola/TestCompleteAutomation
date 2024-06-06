@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{6972890D-FB31-4CE5-95F5-AF5E80D1CB14}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Orders" Key="{B0876D91-E285-4528-B5A3-09B2BEB6FF44}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{E8AF8348-E516-49C9-B91C-858D92C95B4E}">
+								<Image FileName="-1315408816" Left="0" Top="0" Right="760" Bottom="510" />
+								<TypeInfo Item0="{A4104331-78CB-426A-87DA-9642D49858DB}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="dlgConfirmation" Key="{A5EC1A3B-5E47-4B08-A076-49C4D35B8467}">
+								<Image FileName="-2139792119" Left="0" Top="0" Right="363" Bottom="186" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Confirmation" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnNo" Key="{DACC3722-2400-4903-B038-BDBE82AC5FCB}">
+										<Image FileName="-2139792119" Left="141" Top="142" Right="235" Bottom="171" />
+										<TypeInfo Item0="{075422B0-D447-4930-B160-9C4481427808}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;No" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="OrderForm" Key="{1F50A0BF-8FF0-468D-85CF-0EF19A609B9D}">
+								<Image FileName="-971804646" Left="0" Top="0" Right="610" Bottom="598" />
+								<TypeInfo Item0="{97CEA129-1ED7-4B05-ADF2-A2F564290D1E}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OrderForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Group" Key="{480A8F2B-F0E0-41BC-A316-4ADD779EFCD4}">
+										<Image FileName="637664486" Left="14" Top="43" Right="594" Bottom="543" />
+										<TypeInfo Item0="{BDD755BA-5564-4427-ACDF-64DD68B1BF15}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="Group" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Customer" Key="{1AD8A9C4-735F-48CC-A517-EC6DFF011A90}">
+												<Image FileName="637664486" Left="144" Top="243" Right="584" Bottom="268" />
+												<TypeInfo Item0="{BF9E9E3C-D742-4627-BAAF-2A01ADE807F4}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Customer" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Street" Key="{8F79233C-0A12-4524-ACBD-2B2B1C0C2912}">
+												<Image FileName="-698195760" Left="144" Top="283" Right="304" Bottom="308" />
+												<TypeInfo Item0="{BF9E9E3C-D742-4627-BAAF-2A01ADE807F4}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Street" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="State_" Key="{E45279A8-7C01-495E-B8DD-9057B0C9905C}">
+												<Image FileName="-66648983" Left="144" Top="323" Right="304" Bottom="348" />
+												<TypeInfo Item0="{BF9E9E3C-D742-4627-BAAF-2A01ADE807F4}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="State" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="City" Key="{B883676F-7C8E-43B5-A2CE-66A31C306DEE}">
+												<Image FileName="-1135024430" Left="424" Top="283" Right="584" Bottom="308" />
+												<TypeInfo Item0="{BF9E9E3C-D742-4627-BAAF-2A01ADE807F4}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="City" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Zip" Key="{7C7F34A6-3D14-413C-B432-B5642B2F0CC9}">
+												<Image FileName="-66648983" Left="424" Top="323" Right="584" Bottom="348" />
+												<TypeInfo Item0="{BF9E9E3C-D742-4627-BAAF-2A01ADE807F4}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Zip" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="ButtonOK" Key="{BBF8BEAF-E01E-493F-A1EC-D5F60C7B0580}">
+										<Image FileName="-1768012796" Left="404" Top="553" Right="494" Bottom="583" />
+										<TypeInfo Item0="{075422B0-D447-4930-B160-9C4481427808}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonOK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Orders" Owner="{B0876D91-E285-4528-B5A3-09B2BEB6FF44}">
+			<Child Name="MainForm" Owner="{E8AF8348-E516-49C9-B91C-858D92C95B4E}" />
+			<Child Name="dlgConfirmation" Owner="{A5EC1A3B-5E47-4B08-A076-49C4D35B8467}">
+				<Child Name="btnNo" Owner="{DACC3722-2400-4903-B038-BDBE82AC5FCB}" />
+			</Child>
+			<Child Name="OrderForm" Owner="{1F50A0BF-8FF0-468D-85CF-0EF19A609B9D}">
+				<Child Name="Group" Owner="{480A8F2B-F0E0-41BC-A316-4ADD779EFCD4}">
+					<Child Name="Customer" Owner="{1AD8A9C4-735F-48CC-A517-EC6DFF011A90}" />
+					<Child Name="Street" Owner="{8F79233C-0A12-4524-ACBD-2B2B1C0C2912}" />
+					<Child Name="State_" Owner="{E45279A8-7C01-495E-B8DD-9057B0C9905C}" />
+					<Child Name="City" Owner="{B883676F-7C8E-43B5-A2CE-66A31C306DEE}" />
+					<Child Name="Zip" Owner="{7C7F34A6-3D14-413C-B432-B5642B2F0CC9}" />
+				</Child>
+				<Child Name="ButtonOK" Owner="{BBF8BEAF-E01E-493F-A1EC-D5F60C7B0580}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

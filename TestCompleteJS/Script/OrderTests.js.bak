@@ -1,0 +1,37 @@
+﻿var Constants = require("Constants");
+var OrderAppSteps = require("OrderAppSteps");
+var MainFrameSteps = require("MainFrameSteps");
+var OrderSteps = require("OrderSteps");
+var Util = require("Util");
+
+function functionsTest(){
+  Log.Message(Util.concatenateProducts(112, 231, 123));
+  Log.Message(Util.todaysPattern());
+  Log.Message(Util.todaysDatesDigitsProduct());
+  Log.Message(Util.isPalindrome(Constants.notPalindrome));
+  Log.Message(Util.isPalindrome(Constants.palindrome));
+}
+
+function testCase(){
+  OrderAppSteps
+    .openApp();
+  MainFrameSteps
+    .addNewOrder();
+  var state = OrderSteps
+    .setState(Constants.state)
+    .extractState();
+  var addressParts = Util
+    .splitState(state);
+  OrderSteps
+    .setCity(addressParts[0])
+    .setStreet(addressParts[1])
+    .setZip(addressParts[2])
+    .clickButtonOK();
+  OrderAppSteps
+    .closeApp();
+}
+
+function main(){
+  functionsTest();
+  testCase();
+}
